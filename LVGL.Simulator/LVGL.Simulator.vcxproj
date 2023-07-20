@@ -31,6 +31,8 @@
   <Import Project="LVGL.Drivers.vcxitems" />
   <ItemGroup>
     <ClInclude Include="lv_conf.h" />
+    <ClInclude Include="VEXLVGL\images.h" />
+    <ClInclude Include="VEXLVGL\screen.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lv_drv_conf.h" />
@@ -44,6 +46,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LVGL.Simulator.cpp" />
+    <ClCompile Include="VEXLVGL\LogoScreen.c" />
+    <ClCompile Include="VEXLVGL\screen.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />

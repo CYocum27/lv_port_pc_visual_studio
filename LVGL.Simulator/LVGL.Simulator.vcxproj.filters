@@ -5,6 +5,12 @@
   <ItemGroup>
     <ClInclude Include="lv_conf.h" />
     <ClInclude Include="lv_drv_conf.h" />
+    <ClInclude Include="VEXLVGL\images.h">
+      <Filter>VEXLVGL</Filter>
+    </ClInclude>
+    <ClInclude Include="VEXLVGL\screen.h">
+      <Filter>VEXLVGL</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="LVGL.Simulator.manifest" />
@@ -15,6 +21,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LVGL.Simulator.cpp" />
+    <ClCompile Include="VEXLVGL\screen.cpp">
+      <Filter>VEXLVGL</Filter>
+    </ClCompile>
+    <ClCompile Include="VEXLVGL\LogoScreen.c">
+      <Filter>VEXLVGL</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />
@@ -24,5 +36,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="freetype.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="VEXLVGL">
+      <UniqueIdentifier>{94292757-0973-4a9f-9831-c2fc12c59340}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
