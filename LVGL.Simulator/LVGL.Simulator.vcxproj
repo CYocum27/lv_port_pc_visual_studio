@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LVGL.Simulator.cpp" />
+    <ClCompile Include="VEXLVGL\background.c" />
     <ClCompile Include="VEXLVGL\LogoScreen.c" />
     <ClCompile Include="VEXLVGL\screen.cpp" />
   </ItemGroup>

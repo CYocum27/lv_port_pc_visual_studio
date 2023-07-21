@@ -27,6 +27,7 @@
     <ClCompile Include="VEXLVGL\LogoScreen.c">
       <Filter>VEXLVGL</Filter>
     </ClCompile>
+    <ClCompile Include="VEXLVGL\background.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />
