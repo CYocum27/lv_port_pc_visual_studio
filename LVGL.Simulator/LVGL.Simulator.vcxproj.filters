@@ -11,6 +11,7 @@
     <ClInclude Include="VEXLVGL\screen.h">
       <Filter>VEXLVGL</Filter>
     </ClInclude>
+    <ClInclude Include="VEXLVGL\pagehandler.h" />
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="LVGL.Simulator.manifest" />
@@ -28,6 +29,7 @@
       <Filter>VEXLVGL</Filter>
     </ClCompile>
     <ClCompile Include="VEXLVGL\background.c" />
+    <ClCompile Include="VEXLVGL\pagehandler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />

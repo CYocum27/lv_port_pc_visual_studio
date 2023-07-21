@@ -32,6 +32,7 @@
   <ItemGroup>
     <ClInclude Include="lv_conf.h" />
     <ClInclude Include="VEXLVGL\images.h" />
+    <ClInclude Include="VEXLVGL\pagehandler.h" />
     <ClInclude Include="VEXLVGL\screen.h" />
   </ItemGroup>
   <ItemGroup>
@@ -48,6 +49,7 @@
     <ClCompile Include="LVGL.Simulator.cpp" />
     <ClCompile Include="VEXLVGL\background.c" />
     <ClCompile Include="VEXLVGL\LogoScreen.c" />
+    <ClCompile Include="VEXLVGL\pagehandler.cpp" />
     <ClCompile Include="VEXLVGL\screen.cpp" />
   </ItemGroup>
   <ItemGroup>
